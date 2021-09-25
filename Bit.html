@@ -1,0 +1,206 @@
+<html><head><title> Bit courses</title>
+<script type="text/javascript">
+window.alert("Welcome  in Bit course");
+function price()
+{
+	var x1=parseInt(document.getElementById("t1").value);
+	var x2=parseInt(document.getElementById("t2").value);
+	var x3=parseInt(document.getElementById("t3").value);
+	var x4=parseInt(document.getElementById("t4").value);
+	var x5=parseInt(document.getElementById("t5").value);
+ 
+
+	var databaseprice=0;
+	var     htmlprice=0;
+	var      Iosprice=0;
+	var       Biprice=0;
+	var     javaprice=0;
+   
+ 
+if(document.getElementById("c1").checked)
+databaseprice=x1*270;
+if(document.getElementById("c2").checked)
+htmlprice=x2*100;
+
+if(document.getElementById("c3").checked)
+Iosprice=x3*300;
+
+if(document.getElementById("c4").checked)
+ Biprice=x4*125;
+
+if(document.getElementById("c5").checked)
+javaprice=x5*150;
+
+
+
+
+
+var sum=databaseprice+htmlprice+Iosprice+Biprice+javaprice;
+document.getElementById("t6").value=sum;
+}
+
+
+</script>
+
+<style type="text/css">
+.y{color:white;}
+
+</style>
+
+</head>
+<body style="background-color:#df5ffb">
+<h1 align="center" style="color:#00ff00;">Bit course</h1>
+<table border="2" style="color:white">
+<thead>
+<tr>
+<th>Course name</th>
+<th>Course price</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>database</td>
+<td>270$</td>
+</tr>
+
+<tr>
+<td >HTML</td>
+<td>100$</td>
+</tr>
+
+<tr>
+<td>Ios</td>
+<td>300$</td>
+</tr>
+
+<tr>
+<td>Bi</td>
+<td>125$</td>
+</tr>
+
+<tr>
+<td>Java</td>
+<td>150$</td>
+</tr>
+</tbody>
+</table>
+
+<p><img  src="database.jpg" alt="erroe database" height="150" width="260" title="database course"></p>
+
+<details class="y">
+<summary> What you’ll learn  </summary>
+<p>By the end of this course, you will be able to:</p>
+<ol>
+	<li>Learn and understand ACID Properties</li>
+	<li>Database Indexing</li>
+	<li>Database Partitioning</li>
+	
+</ol>
+</details>
+
+
+<p><img  src="html.png" alt="error html " height="150" width="260" title="HTML course"></p>
+<details class="y">
+<summary> What you’ll learn  </summary>
+<p>By the end of this course, you will be able to:</p>
+<ol>
+	<li>Project based teaching to sharpen your HTML skills</li>
+	<li>Perfect for beginners looking for things to build unique projects in a short timeframe</li>
+	<li>Modern styling with flexbox,custom properties, etc</li>
+	
+</ol>
+</details>
+
+
+<p><img  src="ios.jpg" alt="error ios" height="150" width="260" title="Ios course"></p>
+<details class="y">
+<summary> What you’ll learn  </summary>
+<p>From Beginner to iOS App Developer with Just One Course! Fully Updated with a Comprehensive Module Dedicated to SwiftUI!</p>
+<ol>
+	<li>Be able to build any app you want</li>
+	<li>Start your own app based business</li>
+	<li>Create a portfolio of apps to apply for junior developer jobs at a technology company</li>
+</ol>
+</details>
+
+
+
+
+<p><img  src="Bi.jpg" alt="error Bi" height="150" width="260" title="business intelligence course"></p>
+<details class="y">
+<summary> What you’ll learn  </summary>
+<p>The skills you need to become a BI Analyst - Statistics, Database theory, SQL, Tableau – Everything is included</p>
+<ol>
+	
+	<li>Become an expert in Statistics, SQL, Tableau, and problem solving</li>
+	<li>Boost your resume with in-demand skills</li>
+	<li>Gather, organize, analyze and visualize data</li>
+	
+</ol>
+</details>
+
+<p><img  src="java.png" alt="error java" height="150" width="260" title="Java course "></p>
+<details class="y">
+<summary> What you’ll learn  </summary>
+<p>"TOP RATED (BEST SELLER) #1 Master SELENIUM java course" -5 Million students learning worldWide with great collaboration</p>
+<ol>
+	
+	<li>By the end of this course,You will be Mastered on Selenium Webdriver with strong Core JAVA basics</li>
+	<li>You will gain the ability to design PAGEOBJECT, DATADRIVEN&HYBRID Automation FRAMEWORKS from scratch</li>
+	<li> InDepth understanding of real time Selenium CHALLENGES with 100 + examples</li>
+	
+</ol>
+</details>
+
+<br>
+<br>
+
+<form>
+<input type="checkbox"  id="c1" /> database
+<input type="text" id="t1" /> <br>
+
+<input type="checkbox"  id="c2" /> HTML
+<input type="text" id="t2" /> <br>
+
+
+
+<input type="checkbox"  id="c3" /> Ios
+<input type="text" id="t3" /> <br>
+
+
+
+<input type="checkbox"  id="c4" /> Bi
+<input type="text" id="t4" /> <br>
+
+
+
+<input type="checkbox"  id="c5" /> java
+<input type="text" id="t5" /> <br>
+
+<input type="button"   value="calculate"   onclick="price()"><br><br>
+
+<input type="text"   id="t6"/>
+
+<p>
+	<input  type="submit"   value="send" > 
+	<input  type="reset"   value="clear" >
+</p>
+</form>
+
+
+
+<p  style="font-size:20; color:green">my name is abed al majeed</p>
+
+<address align="right" style="color:green;font-size:20">
+
+Jordan in Zarqa
+<br>
+23/7/2021
+
+</address>
+
+<p>
+
+</body>
+</html>

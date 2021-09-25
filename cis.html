@@ -1,0 +1,186 @@
+<html>
+<head>
+<title> Cis courses</title>
+<script type="text/javascript">
+window.alert("Welcome  in cis course");
+function price()
+{
+	var x1=parseInt(document.getElementById("t1").value);
+	var x2=parseInt(document.getElementById("t2").value);
+	var x3=parseInt(document.getElementById("t3").value);
+	var x4=parseInt(document.getElementById("t4").value);
+	
+
+	var     cprice=0;
+	var  htmlprice=0;
+	var  javaprice=0;
+	var   phpprice=0;
+   
+ 
+if(document.getElementById("c1").checked)
+cprice=x1*200;
+
+if(document.getElementById("c2").checked)
+htmlprice=x2*100;
+
+if(document.getElementById("c3").checked)
+javaprice=x3*150; 
+
+if(document.getElementById("c4").checked)
+phpprice=x4*125;
+
+
+var sum=cprice+htmlprice+javaprice+phpprice;
+document.getElementById("t6").value=sum;
+}
+
+</script>
+<style type="text/css">
+.x{color:red;}
+
+
+</style>
+</head>
+
+<body style="background-color:rgb(176, 192, 168);">
+  <h1  align="center"> <mark style="background:black;color:red">Cis courses</mark></h1>
+  
+<table border="2"  style="border-color:blue">
+<thead>
+<tr>
+<th>Course name</th>
+<th>Course price</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>C++</td>
+<td>200$</td>
+</tr>
+
+<tr>
+<td >HTML</td>
+<td>100$</td>
+</tr>
+
+<tr>
+<td>Java</td>
+<td>150$</td>
+</tr>
+
+<tr>
+<td>php</td>
+<td>125$</td>
+</tr>
+
+</tbody>
+</table>
+<br>
+<br>
+<br>
+
+<img src="c++.jpg" alt="error c++" height="200" width="110" title="c++ course"><br><br>
+<iframe src="https://www.youtube.com/embed/z1FdInL8sjg"></iframe>
+<p>
+<details class="x">
+<summary> What you’ll learn  </summary>
+<p>Learn C++ from basics while making your first 4 video games in Unreal</p>
+<ol>
+	<li >C++, the games industry standard language.</li>
+	<li>How to use the Unreal Engine 4 Editor.</li>
+	<li>Git as a version control and backup system.</li>
+</ol>
+</details>
+</p>
+
+<br>
+<br>
+
+<img src="html.png" alt="erroe html " height="200" width="350" title=" html course"><br><br>
+<iframe src="https://www.youtube.com/embed/q3yFo-t1ykw"></iframe>
+<p>
+<details  class="x">
+<summary> What you’ll learn </summary>
+<ol>
+<p>By the end of this course, you will be able to:</p>
+<ol>
+	<li>Project based teaching to sharpen your HTML skills </li>
+	<li>Perfect for beginners looking for things to build unique projects in a short timeframe</li>
+	<li> Modern styling with flexbox,custom properties, etc</li>
+</ol>
+</ol>
+</details>
+</p>
+
+<br>
+<br>
+
+<img src="java.png" alt="error java" height="200" width="300" title="java course"><br><br>
+<iframe src="https://www.youtube.com/embed/FbviMTJ_vP8"></iframe>
+<p>
+<details  class="x">
+<summary> What you’ll learn  </summary>
+<p>"TOP RATED (BEST SELLER) #1 Master SELENIUM java course" -5 Million students learning worldWide with great collaboration</p>
+<ol calss="x">
+	<li>By the end of this course,You will be Mastered on Selenium Webdriver with strong Core JAVA basics  </li>
+	<li>You will gain the ability to design PAGEOBJECT, DATADRIVEN&HYBRID Automation FRAMEWORKS from scratch</li>
+	<li>InDepth understanding of real time Selenium CHALLENGES with 100 + examples </li>
+</ol>
+</details>
+</p>
+
+<br>
+<br>
+
+<img src="php.jpg" alt="error php" height="200" width="150" title="php course"><br><br>
+<iframe src="https://www.youtube.com/embed/OK_JCtrrv-c"></iframe>
+<p>
+<details  class="x">
+<summary> What you’ll learn  </summary>
+<ol>
+	<li>You will learn how to use Databases </li>
+	<li>You will learn MySQL</li>
+</ol>
+</details>
+</p>
+
+<br>
+<br>
+
+<form>
+	<input type="checkbox"  id="c1" /> c++
+	<input type="text" id="t1" /> <br>
+	
+	<input type="checkbox"  id="c2" /> html
+	<input type="text" id="t2" /> <br>
+
+
+	<input type="checkbox"  id="c3" /> java
+	<input type="text" id="t3" /> <br>
+
+
+	<input type="checkbox"  id="c4" /> php
+	<input type="text" id="t4" /> <br>
+
+<input type="button"   value="calculate"   onclick="price()"><br>
+<input type="text"   id="t6"/>
+<p>
+	<input  type="submit"   value="send" > 
+	<input  type="reset"   value="clear" >
+</p>
+</form>
+
+<p  style="font-size:20; color:blue">my name is abed al majeed</p>
+
+<address align="right" style="color:blue;font-size:20">
+
+Jordan in Zarqa
+<br>
+23/7/2021
+
+</address>
+
+<p>
+</body>
+</html>
